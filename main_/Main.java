@@ -1,13 +1,12 @@
-package main;
+package main_;
 
-import main.model.Task;
+import main_.model.Task;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main() {
         LocalDateTime now = LocalDateTime.now();
-        main.model.Task task = new Task("id", "title", "description", now);
+        main_.model.Task task = new Task("id", "title", "description", now);
         System.out.println(task.toString());
     }
 }

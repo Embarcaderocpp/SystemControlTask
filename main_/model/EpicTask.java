@@ -1,6 +1,4 @@
-package main.model;
-
-import main.model.Status;
+package main_.model;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
